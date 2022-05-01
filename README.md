@@ -1,3 +1,15 @@
+# WomenInTech
+The idea is to increase number of women in technology by training them and making events to meet new employers. 
+
+I started from the guest book and built on it 
+- The website is depoyed on [render.com](https://render.com/) 
+- The website is live and you can check it [here](https://communitygood.onrender.com/) 
+- The video explains the idea is [here](https://www.loom.com/share/944dc3dbb5614fa0a19d0fccf347f520) 
+
+## Screenshot of the app
+
+![image](https://user-images.githubusercontent.com/11816618/166150707-f383d0eb-1697-40b5-a18c-8beb2bd1851d.png)
+
 # Guest Book
 
 [![Build Status](https://travis-ci.com/near-examples/guest-book.svg?branch=master)](https://travis-ci.com/near-examples/guest-book)
