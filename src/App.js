@@ -53,15 +53,16 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
   };
 
   const signIn = () => {
-    wallet.requestSignIn(
-      {
-        contractId: nearConfig.contractName,
-        methodNames: [contract.addMessage.name],
-      }, //contract requesting access
-      "NEAR Support", //optional name
-      null, //optional URL to redirect to if the sign in was successful
-      null //optional URL to redirect to if the sign in was NOT successful
-    );
+    wallet.requestSignIn(nearConfig.contractName);
+    // wallet.requestSignIn(
+    //   {
+    //     contractId: nearConfig.contractName,
+    //     methodNames: [contract.addMessage.name],
+    //   }, //contract requesting access
+    //   "NEAR Support", //optional name
+    //   null, //optional URL to redirect to if the sign in was successful
+    //   null //optional URL to redirect to if the sign in was NOT successful
+    // );
   };
 
   const signOut = () => {
