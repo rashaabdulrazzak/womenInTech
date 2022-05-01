@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -11,6 +14,13 @@ html {
   --primary: #D1CCBD;
   --secondary: var(--royal);
   --tertiary: #FF585D;
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+   
+  
+  --color-text: #25282A;
+  --color-subtext: #FF8A71;
+  --color-footer : #031B34;
 
   background-color: var(--bg);
   color: var(--fg);
@@ -37,8 +47,9 @@ html {
 
 body {
   margin: 0 auto;
-  padding: 0 1em;
-  max-width: 40em;
+  padding: 0 auto;
+  box-sizing: border-box;
+ // max-width: 55em;
 }
 
 fieldset {
@@ -103,6 +114,8 @@ button, input {
 }
 
 button {
+  background: #F49867;
+  
   position: relative;
   transition: top 50ms;
   &:hover, &:focus {
@@ -119,4 +132,7 @@ button {
   border-left: 0.25em solid var(--secondary);
   padding-left: 0.25em;
   margin-left: -0.5em;
+}
+main{
+  padding: 10px;
 }
